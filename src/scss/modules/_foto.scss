@@ -1,0 +1,21 @@
+.foto {
+
+    position: relative;
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+
+    &__woman {
+        position: absolute;
+    }
+
+    &__box {
+        position: absolute;
+    }
+
+    &__pattern {
+        position: absolute;
+    }
+}
