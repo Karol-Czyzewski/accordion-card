@@ -16,5 +16,15 @@
 .item {
     &__header {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__button {
+        margin-right: 10px;
+        border: 0;
+        background:none;
+        width: 30px;
+        height: 30px;
     }
 }
