@@ -1,6 +1,10 @@
 .accordion {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     width: 400px;
-    min-height: 400px;
+    min-height: 700px;
+    position: relative;
 
     &__items {
 
