@@ -5,6 +5,8 @@
     width: 400px;
     min-height: 700px;
     position: relative;
+    margin: 16px;
+    padding: 16px;
 
     &__items {
         list-style: none;
@@ -14,10 +16,24 @@
 }
 
 .item {
+    position: relative;
+
+
+
     &__header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+
+        &::after {
+            content: "";
+            width: 100%;
+            background-color: $light-grayish;
+            height: 1.5px;
+            position: absolute;
+            bottom: 0;
+        }
     }
 
     &__button {
