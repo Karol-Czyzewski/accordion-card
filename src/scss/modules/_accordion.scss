@@ -18,6 +18,9 @@
 .item {
     position: relative;
 
+    .closed {
+        display: none;
+    }
 
 
     &__header {
