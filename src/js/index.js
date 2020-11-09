@@ -1,11 +1,15 @@
 import '../scss/app.scss';
 
-const paragraph = document.querySelector('.item__paragraph--js')
-const button = document.querySelector('.item__button');
+const allParagraphs = document.querySelectorAll('.item__paragraph--js')
+const allButtons = document.querySelectorAll('.item__button');
 
 
-const closeItem = () => {
-    paragraph.classList.toggle('closed')
-}
+allButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        console.log('działa');
+    })
+})
 
-button.addEventListener('click', closeItem);
+allParagraphs.forEach(paragraph => {
+    console.log(paragraph.dataset.item)
+})
