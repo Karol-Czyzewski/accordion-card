@@ -1,15 +1,9 @@
 import '../scss/app.scss';
 
-const allParagraphs = document.querySelectorAll('.item__paragraph--js')
-const allButtons = document.querySelectorAll('.item__button');
+const allItems = document.querySelectorAll('.item')
 
-
-allButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        console.log('działa');
+allItems.forEach(item => {
+    item.addEventListener('click', () => {
+        item.classList.toggle('open');
     })
-})
-
-allParagraphs.forEach(paragraph => {
-    console.log(paragraph.dataset.item)
 })
