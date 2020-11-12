@@ -1,8 +1,9 @@
 .main {
-    background-color: $white;
+    background-color: $light-grayish;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 40px;
-    overflow: hidden;
+    z-index: 3;
     border-radius: 8px;
+    min-height: 464px;
 }
