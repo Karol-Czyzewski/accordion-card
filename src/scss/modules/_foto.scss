@@ -1,12 +1,7 @@
 .foto {
 
     background: url('/src/assets/img/illustration-woman-online-desktop.svg') no-repeat -75px, url('/src/assets/img/bg-pattern-desktop.svg') no-repeat -570px 65%;
-
-    .container {
-        position: relative;
-        // overflow: hidden;
-        // background: url('../images/illustration-woman-online-desktop.svg') no-repeat -75px, url('../images/bg-pattern-desktop.svg') no-repeat -570px 65%;
-    }
+    position: relative;
 
     &__woman {
         position: absolute;
@@ -15,10 +10,8 @@
 
     &__box {
         position: absolute;
-        top: 100px;
-        left: 0px;
-        z-index: 10;
-        overflow: visible;
+        top: 192px;
+        left: -90px;
     }
 
 
