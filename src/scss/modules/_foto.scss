@@ -1,29 +1,25 @@
 .foto {
-    position: relative;
+
+    background: url('/src/assets/img/illustration-woman-online-desktop.svg') no-repeat -75px, url('/src/assets/img/bg-pattern-desktop.svg') no-repeat -570px 65%;
+
+    .container {
+        position: relative;
+        // overflow: hidden;
+        // background: url('../images/illustration-woman-online-desktop.svg') no-repeat -75px, url('../images/bg-pattern-desktop.svg') no-repeat -570px 65%;
+    }
 
     &__woman {
         position: absolute;
-        z-index: 4;
-        height: 500px;
-        width: 500px;
-        top: -320px;
-        left: -70px;
-        transform: rotate(6deg);
+        transform: rotateY(-22deg)
     }
 
     &__box {
         position: absolute;
-        z-index: 5;
-        top: -120px;
-        left: -100px;
+        top: 100px;
+        left: 0px;
+        z-index: 10;
+        overflow: visible;
     }
 
-    &__pattern {
-        position: absolute;
-        z-index: 2;
-        width: 800px;
-        height: 800px;
-        top: -500px;
-        left: -390px;
-    }
+
 }
