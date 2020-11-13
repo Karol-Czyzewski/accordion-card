@@ -33,15 +33,15 @@
         &:hover {
             color: 	#f47c57;
         }
+    }
 
-        &::after {
-            content: "";
-            width: 100%;
-            background-color: $light-grayish;
-            height: 1.5px;
-            position: absolute;
-            bottom: 0;
-        }
+    &::after {
+        content: "";
+        width: 100%;
+        background-color: $light-grayish;
+        height: 1.5px;
+        position: absolute;
+        bottom: 0;
     }
 
     p {
