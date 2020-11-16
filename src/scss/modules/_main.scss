@@ -10,8 +10,9 @@
     margin-left: 76px;
 
     @media (max-width:1025px) {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: block;
         margin: 0;
+        max-height: 70%;
+        max-width: 346px;
     }
 }
