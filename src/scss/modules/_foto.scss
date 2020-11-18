@@ -1,3 +1,15 @@
+@keyframes cubeMove {
+    0% {
+        top: 205px;
+    }
+    50% {
+        top: 195px;
+    }
+    100% {
+        top: 205px;
+    }
+}
+
 .foto {
     min-width: 432px;
     background: url('/src/assets/img/illustration-woman-online-desktop.svg') no-repeat -75px, url('/src/assets/img/bg-pattern-desktop.svg') no-repeat -570px 65%;
@@ -23,8 +35,6 @@
 
     &__woman {
         display: none;
-        // position: relative;
-        // transform: rotateY(-22deg);
 
         @media (max-width:1025px) {
             display: block;
@@ -35,10 +45,11 @@
     }
 
     &__box {
+        animation: cubeMove 4s 1s linear infinite;
         position: absolute;
         top: 205px;
         left: -90px;
-
+        transition: left 1s ease-in-out;
         @media (max-width:1025px) {
         display: none;
         }
